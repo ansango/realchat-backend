@@ -1,8 +1,8 @@
 const users = [];
 
 // joins the user to the specific chatroom
-const joinUser = (id, username, room) => {
-  const user = { id, username, room };
+const joinUser = (id, userName, room) => {
+  const user = { id, userName, room };
 
   users.push(user);
   console.log(users, "users");
