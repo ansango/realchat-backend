@@ -65,4 +65,8 @@ io.on("connection", (socket) => {
       });
     }
   });
+
+  socket.on("forceDisconnect", () => {
+    socket.disconnect();
+  });
 });
